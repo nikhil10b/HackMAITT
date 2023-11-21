@@ -1,6 +1,7 @@
 import { card } from "../assets";
 import styles, { layout } from "../style";
 import Button from "./Button";
+import notes from '../assets/notes.png'
 
 const CardDeal = () => (
   <section className={layout.section}>
@@ -18,7 +19,7 @@ const CardDeal = () => (
     </div>
 
     <div className={layout.sectionImg}>
-      <img src={card} alt="billing" className="w-[100%] h-[100%]" />
+      <img src={notes} alt="billing" className="w-[100%] h-[100%]" />
     </div>
   </section>
 );
