@@ -23,23 +23,41 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "PDF to MCQ",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "PDF to MCQ Converter for Effective Self-Assessment",
+    link: "http://127.0.0.1:5000/",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "AI powered PDF-chatbot",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "AI-powered PDF Chatbot Integration for Instant Insights.",
+    link: "http://localhost:8502/",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Calender Scheduling",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Calendar Scheduling for Efficient Time Management."
+  },
+  {
+    id: "feature-4",
+    icon: send,
+    title: "Note Taking",
+    content:
+      "Note-Taking Web App.",
+    link: "https://notes-sharing-education4you.netlify.app",
+  },
+  {
+    id: "feature-5",
+    icon: send,
+    title: "Chatroom",
+    content:
+      "Interactive Chatrooms for Real-time Collaboration.",
+    link: "http://localhost:3000/",
   },
 ];
 
