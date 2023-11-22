@@ -3,9 +3,9 @@ import styles, { layout } from "../style";
 import video from '../assets/video.png';
 
 const Billing = () => (
-  <section id="product" className={layout.sectionReverse}>
+  <section id="product" className={`${layout.sectionReverse} pt-20`}>
     <div className={layout.sectionImgReverse}>
-      <img src={video} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
+      <img src={video} alt="billing" className="w-[400px] h-[400px] relative z-[5]" />
 
       {/* gradient start */}
       <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />

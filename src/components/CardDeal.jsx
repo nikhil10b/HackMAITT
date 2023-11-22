@@ -4,8 +4,9 @@ import Button from "./Button";
 import notes from '../assets/notes.png'
 
 const CardDeal = () => (
-  <section className={layout.section}>
-    <div className={layout.sectionInfo}>
+  <>
+  <section className={`${layout.section} pt-20`}>
+    <div className={`${layout.sectionInfo}`}>
       <h2 className={styles.heading2}>
         Find a better card deal <br className="sm:block hidden" /> in few easy
         steps.
@@ -19,9 +20,11 @@ const CardDeal = () => (
     </div>
 
     <div className={layout.sectionImg}>
-      <img src={notes} alt="billing" className="w-[100%] h-[100%]" />
+      <img src={notes} alt="billing" className="w-[400px] h-[400px]" />
     </div>
   </section>
+  </>
+  
 );
 
 export default CardDeal;
