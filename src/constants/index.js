@@ -9,14 +9,14 @@ export const navLinks = [
     id: "features",
     title: "Features",
   },
-  {
-    id: "product",
-    title: "Product",
-  },
-  {
-    id: "clients",
-    title: "Clients",
-  },
+  // {
+  //   id: "product",
+  //   title: "Product",
+  // },
+  // {
+  //   id: "clients",
+  //   title: "Clients",
+  // },
 ];
 
 export const features = [
@@ -25,35 +25,37 @@ export const features = [
     icon: star,
     title: "PDF to MCQ",
     content:
-      "PDF to MCQ Converter for Effective Self-Assessment",
+      "PDF to MCQ Converter used for Effective Self-Assessment",
     link: "http://127.0.0.1:5000/",
   },
   {
     id: "feature-2",
-    icon: shield,
+    icon: star,
     title: "AI powered PDF-chatbot",
     content:
       "AI-powered PDF Chatbot Integration for Instant Insights.",
-    link: "http://localhost:8502/",
+    link: "http://localhost:8501/",
   },
   {
     id: "feature-3",
-    icon: send,
-    title: "Calender Scheduling",
+    icon: star,
+    title: "PDF to Video",
     content:
-      "Calendar Scheduling for Efficient Time Management."
+      "Pdf to video.mp4 Integration for Instant Insights, dynamics.",
+    link: "https://655eedbae3d8f248289cf726--inquisitive-starship-799278.netlify.app/",
   },
+
   {
     id: "feature-4",
-    icon: send,
+    icon: star,
     title: "Note Taking",
     content:
-      "Note-Taking Web App.",
+      "Note-Taking Web App used to take and share notes among.",
     link: "https://notes-sharing-education4you.netlify.app",
   },
   {
     id: "feature-5",
-    icon: send,
+    icon: star,
     title: "Chatroom",
     content:
       "Interactive Chatrooms for Real-time Collaboration.",
@@ -89,21 +91,21 @@ export const feedback = [
 ];
 
 export const stats = [
-  {
-    id: "stats-1",
-    title: "User Active",
-    value: "3800+",
-  },
-  {
-    id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
-  },
-  {
-    id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
-  },
+  // {
+  //   id: "stats-1",
+  //   title: "User Active",
+  //   value: "3800+",
+  // },
+  // {
+  //   id: "stats-2",
+  //   title: "Trusted by Company",
+  //   value: "230+",
+  // },
+  // {
+  //   id: "stats-3",
+  //   title: "Transaction",
+  //   value: "$230M+",
+  // },
 ];
 
 export const footerLinks = [

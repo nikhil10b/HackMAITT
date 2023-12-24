@@ -14,8 +14,6 @@ const FeatureCard = ({ icon, title, content, index, link }) => (
       </h4>
       </a>
       
-
-      
       <p className="font-poppins font-normal text-dimWhite text-[16px] leading-[24px]">
         {content}
       </p>
@@ -28,8 +26,7 @@ const Business = () =>  (
   <section id="features" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        You do the business, <br className="sm:block hidden" /> we’ll handle
-        the money.
+        Empower your Learning <br className="sm:block hidden" /> only with Education4You
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         With the right credit card, you can improve your financial life by
